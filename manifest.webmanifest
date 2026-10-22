@@ -1,6 +1,6 @@
 {
-  "name": "Unidos Fight",
-  "short_name": "Unidos Fight",
+  "name": "UFG26",
+  "short_name": "UFG26",
   "description": "Jogo de luta criado no Unidos Fight Studio.",
   "start_url": "./index.html",
   "scope": "./",

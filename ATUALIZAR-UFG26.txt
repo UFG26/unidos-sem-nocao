@@ -1,0 +1,26 @@
+UFG26 — atualização de áudio, desempenho e controles
+
+COMO PUBLICAR
+1. Extraia este ZIP.
+2. Copie TODO o conteúdo para a pasta do repositório no GitHub Desktop, substituindo os arquivos existentes.
+3. Inclua a pasta assets inteira: os atlas e as coordenadas em index.html foram atualizados juntos.
+4. Faça Commit to main e depois Push origin.
+5. Aguarde a publicação no GitHub Pages ou Vercel.
+6. Reabra o jogo e toque/clique no menu para ativar o áudio.
+
+Se continuar vendo a versão antiga, faça uma atualização forçada no desktop (Ctrl+Shift+R).
+No celular, feche e reabra a página; se persistir, limpe os dados do site. Limpar os dados também apaga as configurações e o progresso locais.
+
+ALTERAÇÕES
+- Áudio: ativação na primeira interação, músicas reutilizadas entre rounds, efeitos decodificados e reutilizados.
+- Cache: requisições parciais de áudio não são armazenadas; falhas de armazenamento não interrompem downloads.
+- Desempenho: atlas com dimensões menores e recortes ajustados, descarte das imagens da luta anterior, carregamento dos sprites antes da luta e limite de renderização próximo de 60 quadros/s.
+- HUD: energia alinhada abaixo da vida, para ambos os jogadores.
+- Touch: ações em duas linhas, direcional separado e botão de super fixo, desativado quando sem energia.
+- Instalação: opcional em OPÇÕES; sem banner ou botão flutuante na luta.
+
+VERIFICAÇÃO
+Foram verificados a sintaxe dos scripts, os caminhos de 213 recursos, 5.670 recortes, o alinhamento configurado do HUD e testes isolados de áudio/cache.
+Não foi possível executar um navegador real de teste neste ambiente. Som audível, aparência e fluidez precisam ser conferidos nos dispositivos após publicar.
+
+Este pacote é o jogo exportado. Não é o código do editor: futuras exportações pelo editor original poderão sobrescrever estas correções.
