@@ -1,0 +1,23 @@
+{
+  "id": "raphael",
+  "name": "Arena de Raphael",
+  "width": 1700,
+  "floor": 470,
+  "music": "",
+  "layers": [
+    {
+      "id": "bg-raphael",
+      "name": "Cenário principal",
+      "asset": "roster_raphael_stage_raphael_webp",
+      "x": 0,
+      "y": 0,
+      "width": 1700,
+      "height": 540,
+      "parallax": 1,
+      "z": 0,
+      "opacity": 1,
+      "fps": 0,
+      "frames": []
+    }
+  ]
+}

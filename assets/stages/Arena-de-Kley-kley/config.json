@@ -1,0 +1,23 @@
+{
+  "id": "kley",
+  "name": "Arena de Kley",
+  "width": 1700,
+  "floor": 470,
+  "music": "216b3717-fd87-4f09-8609-10c6420af831",
+  "layers": [
+    {
+      "id": "bg-kley",
+      "name": "Cenário principal",
+      "asset": "roster_kley_stage_kley_webp",
+      "x": 0,
+      "y": 0,
+      "width": 1700,
+      "height": 540,
+      "parallax": 1,
+      "z": 0,
+      "opacity": 1,
+      "fps": 0,
+      "frames": []
+    }
+  ]
+}

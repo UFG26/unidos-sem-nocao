@@ -1,0 +1,23 @@
+{
+  "id": "samuka",
+  "name": "Samuka SJDR",
+  "width": 1700,
+  "floor": 470,
+  "music": "4fd1ba9f-8df4-4c20-b727-b7c558ee5aff",
+  "layers": [
+    {
+      "id": "f4121f28-7872-4df8-b7bd-a9128aa54006",
+      "name": "sjdt.webp",
+      "asset": "7aa13d33-466d-48d8-9ba4-ea1ef8867f25",
+      "x": -5,
+      "y": -1,
+      "width": 1719,
+      "height": 554,
+      "z": 0,
+      "parallax": 1,
+      "opacity": 1,
+      "frames": [],
+      "fps": 12
+    }
+  ]
+}

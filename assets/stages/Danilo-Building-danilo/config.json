@@ -1,0 +1,23 @@
+{
+  "id": "danilo",
+  "name": "Danilo Building",
+  "width": 1700,
+  "floor": 470,
+  "music": "60876d27-01f6-4e31-89d9-f715e450da3b",
+  "layers": [
+    {
+      "id": "1ed58f9f-20e9-49b5-9947-da568e4232e3",
+      "name": "stage_danilo.webp",
+      "asset": "dd066d96-46a1-4f02-a6e0-58765e573d0f",
+      "x": -4,
+      "y": -7,
+      "width": 1710,
+      "height": 571,
+      "z": 0,
+      "parallax": 1,
+      "opacity": 1,
+      "frames": [],
+      "fps": 12
+    }
+  ]
+}

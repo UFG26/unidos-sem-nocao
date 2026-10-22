@@ -1,0 +1,23 @@
+{
+  "id": "wagnao",
+  "name": "Wag's Dental Care",
+  "width": 1700,
+  "floor": 470,
+  "music": "eec50f53-9c92-44a0-afd9-4960151c7a3b",
+  "layers": [
+    {
+      "id": "bg-wagnao",
+      "name": "Cenário principal",
+      "asset": "roster_wagnao_stage_wagnao_webp",
+      "x": 0,
+      "y": 0,
+      "width": 1700,
+      "height": 540,
+      "parallax": 1,
+      "z": 0,
+      "opacity": 1,
+      "fps": 0,
+      "frames": []
+    }
+  ]
+}

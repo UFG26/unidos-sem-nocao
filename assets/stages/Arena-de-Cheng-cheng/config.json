@@ -1,0 +1,25 @@
+{
+  "id": "cheng",
+  "name": "Arena de Cheng",
+  "width": 1700,
+  "floor": 470,
+  "music": "bf9ab01a-c058-4492-a5a1-5a3be47dbfdc",
+  "layers": [
+    {
+      "id": "ed7859c0-fa7d-4656-937f-d2c041da3e23",
+      "name": "stage_cheng.webp",
+      "asset": "roster_cheng_stage_cheng_webp",
+      "x": -4,
+      "y": -16,
+      "width": 1706,
+      "height": 560,
+      "z": 0,
+      "parallax": 1,
+      "opacity": 1,
+      "frames": [],
+      "fps": 12,
+      "locked": true,
+      "hidden": false
+    }
+  ]
+}

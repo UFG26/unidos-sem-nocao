@@ -1,0 +1,23 @@
+{
+  "id": "leo",
+  "name": "Leo Lair",
+  "width": 1700,
+  "floor": 470,
+  "music": "7b48b38e-8d85-4e76-9be3-4b468641f836",
+  "layers": [
+    {
+      "id": "13242a3d-de50-4388-bc82-6c1806ed0e6f",
+      "name": "leostgae.webp",
+      "asset": "79b6a5ba-c67a-4ed7-9b22-ac705cceb100",
+      "x": -9,
+      "y": -9,
+      "width": 1725,
+      "height": 567,
+      "z": 0,
+      "parallax": 1,
+      "opacity": 1,
+      "frames": [],
+      "fps": 12
+    }
+  ]
+}

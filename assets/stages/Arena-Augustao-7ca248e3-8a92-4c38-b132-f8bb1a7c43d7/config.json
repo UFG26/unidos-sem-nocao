@@ -1,0 +1,23 @@
+{
+  "id": "7ca248e3-8a92-4c38-b132-f8bb1a7c43d7",
+  "name": "Arena Augustão",
+  "width": 1700,
+  "floor": 470,
+  "music": "de7c6478-4136-491c-a616-25432c6b5a44",
+  "layers": [
+    {
+      "id": "e05e70a0-4f77-4c6e-841f-9ce8f8e79576",
+      "name": "augustus arena.webp",
+      "asset": "b014d286-affa-4769-bdb4-793d9a72c2f2",
+      "x": -2,
+      "y": -95,
+      "width": 1810,
+      "height": 645,
+      "z": 0,
+      "parallax": 1,
+      "opacity": 1,
+      "frames": [],
+      "fps": 12
+    }
+  ]
+}

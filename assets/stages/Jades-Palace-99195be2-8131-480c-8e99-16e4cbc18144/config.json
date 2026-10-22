@@ -1,0 +1,23 @@
+{
+  "id": "99195be2-8131-480c-8e99-16e4cbc18144",
+  "name": "Jades Palace",
+  "width": 1700,
+  "floor": 470,
+  "music": "82ea4cd6-fb87-488a-ab26-3c9b05252b5a",
+  "layers": [
+    {
+      "id": "d6c8bf61-a376-4676-9f1d-d42ca8cc104f",
+      "name": "stage_jade.webp",
+      "asset": "4ae427fb-8765-48b2-b1e1-e6dc7217259d",
+      "x": -6,
+      "y": -48,
+      "width": 1719,
+      "height": 597,
+      "z": 0,
+      "parallax": 1,
+      "opacity": 1,
+      "frames": [],
+      "fps": 12
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "moraes",
+  "name": "Padock",
+  "width": 1700,
+  "floor": 470,
+  "music": "92e3839c-2556-44e8-a5cf-05c07c4b9c4d",
+  "layers": [
+    {
+      "id": "bg-moraes",
+      "name": "Cenário principal",
+      "asset": "roster_moraes_stage_moraes_webp",
+      "x": 0,
+      "y": 0,
+      "width": 1700,
+      "height": 540,
+      "parallax": 1,
+      "z": 0,
+      "opacity": 1,
+      "fps": 0,
+      "frames": []
+    }
+  ]
+}

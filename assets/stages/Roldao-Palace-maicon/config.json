@@ -1,0 +1,23 @@
+{
+  "id": "maicon",
+  "name": "Roldão Palace",
+  "width": 1700,
+  "floor": 470,
+  "music": "cb2465ed-eb8d-4573-bcc8-43a999e0da76",
+  "layers": [
+    {
+      "id": "bg-maicon",
+      "name": "Cenário principal",
+      "asset": "roster_maicon_stage_maicon_webp",
+      "x": 0,
+      "y": 0,
+      "width": 1700,
+      "height": 540,
+      "parallax": 1,
+      "z": 0,
+      "opacity": 1,
+      "fps": 0,
+      "frames": []
+    }
+  ]
+}

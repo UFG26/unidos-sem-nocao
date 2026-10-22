@@ -1,0 +1,23 @@
+{
+  "id": "boss",
+  "name": "Masss Lair",
+  "width": 1700,
+  "floor": 470,
+  "music": "b0e23508-530c-490e-8cb5-4ff646322b44",
+  "layers": [
+    {
+      "id": "bg-boss",
+      "name": "Cenário principal",
+      "asset": "roster_boss_stage_boss_webp",
+      "x": 0,
+      "y": 0,
+      "width": 1700,
+      "height": 540,
+      "parallax": 1,
+      "z": 0,
+      "opacity": 1,
+      "fps": 0,
+      "frames": []
+    }
+  ]
+}

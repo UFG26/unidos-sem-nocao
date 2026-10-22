@@ -1,0 +1,1067 @@
+{
+  "roster_cheng_stage_cheng_webp": {
+    "path": "assets/stages/Arena-de-Cheng-cheng/roster_cheng_stage_cheng_webp-stage_cheng-webp.webp",
+    "name": "stage_cheng.webp",
+    "type": "image"
+  },
+  "roster_cunha_stage_cunha_webp": {
+    "path": "assets/stages/Arena-de-Cunha-cunha/roster_cunha_stage_cunha_webp-stage_cunha-webp.webp",
+    "name": "stage_cunha.webp",
+    "type": "image"
+  },
+  "roster_kley_stage_kley_webp": {
+    "path": "assets/stages/Arena-de-Kley-kley/roster_kley_stage_kley_webp-stage_kley-webp.webp",
+    "name": "stage_kley.webp",
+    "type": "image"
+  },
+  "roster_maicon_stage_maicon_webp": {
+    "path": "assets/stages/Arena-de-Maicon-maicon/roster_maicon_stage_maicon_webp-stage_maicon-webp.webp",
+    "name": "stage_maicon.webp",
+    "type": "image"
+  },
+  "roster_moraes_stage_moraes_webp": {
+    "path": "assets/stages/Arena-de-Moraes-moraes/roster_moraes_stage_moraes_webp-stage_moraes-webp.webp",
+    "name": "stage_moraes.webp",
+    "type": "image"
+  },
+  "roster_raphael_stage_raphael_webp": {
+    "path": "assets/stages/Arena-de-Raphael-raphael/roster_raphael_stage_raphael_webp-stage_raphael-webp.webp",
+    "name": "stage_raphael.webp",
+    "type": "image"
+  },
+  "roster_vitao_stage_vitao_webp": {
+    "path": "assets/stages/Arena-de-Vitao-vitao/roster_vitao_stage_vitao_webp-stage_vitao-webp.webp",
+    "name": "stage_vitao.webp",
+    "type": "image"
+  },
+  "roster_wagnao_stage_wagnao_webp": {
+    "path": "assets/stages/Arena-de-Wagnao-wagnao/roster_wagnao_stage_wagnao_webp-stage_wagnao-webp.webp",
+    "name": "stage_wagnao.webp",
+    "type": "image"
+  },
+  "roster_boss_stage_boss_webp": {
+    "path": "assets/stages/Arena-de-O-Chefao-boss/roster_boss_stage_boss_webp-stage_boss-webp.webp",
+    "name": "stage_boss.webp",
+    "type": "image"
+  },
+  "sfx-hit": {
+    "path": "assets/shared/sfx/sfx-hit-hit-wav.wav",
+    "name": "hit.wav",
+    "type": "audio"
+  },
+  "9eaedd83-0e22-4e05-8878-a66f695fc446": {
+    "path": "assets/characters/Calvo-calvo/9eaedd83-0e22-4e05-8878-a66f695fc446-super-mp3.mp3",
+    "name": "super.mp3",
+    "type": "audio"
+  },
+  "28af8605-b2ab-4620-a830-a794384cf35b": {
+    "path": "assets/characters/Calvo-calvo/28af8605-b2ab-4620-a830-a794384cf35b-soco-mp3.mp3",
+    "name": "soco.mp3",
+    "type": "audio"
+  },
+  "69abf96f-c126-45e0-8de7-0b123ca70efe": {
+    "path": "assets/characters/Calvo-calvo/69abf96f-c126-45e0-8de7-0b123ca70efe-chute-mp3.mp3",
+    "name": "chute.mp3",
+    "type": "audio"
+  },
+  "4a1740c8-e450-4fd3-a835-8b87dc8d53f3": {
+    "path": "assets/characters/Augustao-augustao/4a1740c8-e450-4fd3-a835-8b87dc8d53f3-magia_augustos-mp3.mp3",
+    "name": "magia_augustos.mp3",
+    "type": "audio"
+  },
+  "360d3137-8e94-488b-a844-43c226e16e6e": {
+    "path": "assets/characters/Cheng-cheng/360d3137-8e94-488b-a844-43c226e16e6e-soco_cheng-mp3.mp3",
+    "name": "soco_cheng.mp3",
+    "type": "audio"
+  },
+  "531ca815-4656-4622-9441-ac07a011ad5d": {
+    "path": "assets/characters/Cheng-cheng/531ca815-4656-4622-9441-ac07a011ad5d-chute_cheng-mp3.mp3",
+    "name": "chute_cheng.mp3",
+    "type": "audio"
+  },
+  "387abd31-05a1-434a-ac84-c4b9e7ddef41": {
+    "path": "assets/characters/Cheng-cheng/387abd31-05a1-434a-ac84-c4b9e7ddef41-magai_cheng-mp3.mp3",
+    "name": "magai_cheng.mp3",
+    "type": "audio"
+  },
+  "1b2e6624-28a3-473d-9f41-2aad14ba7153": {
+    "path": "assets/characters/Cheng-cheng/1b2e6624-28a3-473d-9f41-2aad14ba7153-siper_cheng-mp3.mp3",
+    "name": "siper_cheng.mp3",
+    "type": "audio"
+  },
+  "f856618b-3085-4fdf-bedd-71529f615ead": {
+    "path": "assets/characters/Augustao-augustao/f856618b-3085-4fdf-bedd-71529f615ead-magia_augusto-mp4-atlas.webp",
+    "name": "magia_augusto.mp4 · atlas",
+    "type": "image"
+  },
+  "e3e04df6-2deb-466c-bc43-57cad55a5c78": {
+    "path": "assets/characters/Augustao-augustao/e3e04df6-2deb-466c-bc43-57cad55a5c78-Fire_sphere_exploding_on_background_20261017033720-mp4-atlas.webp",
+    "name": "Fire_sphere_exploding_on_background_20261017033720.mp4 · atlas",
+    "type": "image"
+  },
+  "7fbf9b8d-adca-4c9a-8e36-c3bde71e28b4": {
+    "path": "assets/characters/Calvo-calvo/7fbf9b8d-adca-4c9a-8e36-c3bde71e28b4-magia-mp4-atlas.webp",
+    "name": "magia.mp4 · atlas",
+    "type": "image"
+  },
+  "7b823d8d-6844-41ab-865e-3167ee797662": {
+    "path": "assets/characters/Calvo-calvo/7b823d8d-6844-41ab-865e-3167ee797662-Animar_flecha_flamejante_2D_20261017021610-mp4-atlas.webp",
+    "name": "Animar_flecha_flamejante_2D_20261017021610.mp4 · atlas",
+    "type": "image"
+  },
+  "b27d8843-f17b-4c7a-ac4b-4deaa18a8fa1": {
+    "path": "assets/characters/Cunha-cunha/b27d8843-f17b-4c7a-ac4b-4deaa18a8fa1-cunha_soco_sound-mp3.mp3",
+    "name": "cunha_soco_sound.mp3",
+    "type": "audio"
+  },
+  "61186526-fc85-4691-abd0-e46f9946a5d6": {
+    "path": "assets/characters/Cunha-cunha/61186526-fc85-4691-abd0-e46f9946a5d6-cunha_chute_sound-mp3.mp3",
+    "name": "cunha_chute_sound.mp3",
+    "type": "audio"
+  },
+  "31c983c8-5c90-42b7-85f8-1b3d94bfd5dd": {
+    "path": "assets/ui/title/31c983c8-5c90-42b7-85f8-1b3d94bfd5dd-MAIN-png.png",
+    "name": "MAIN.png",
+    "type": "image"
+  },
+  "63cb8e9e-c2e9-4377-b332-91e40bc86856": {
+    "path": "assets/characters/Cunha-cunha/63cb8e9e-c2e9-4377-b332-91e40bc86856-data-venia-mp3.mp3",
+    "name": "data venia.mp3",
+    "type": "audio"
+  },
+  "b80d5c54-0e54-4763-9da3-c2efa5c31cf3": {
+    "path": "assets/characters/Cunha-cunha/b80d5c54-0e54-4763-9da3-c2efa5c31cf3-cunha_super-mp3.mp3",
+    "name": "cunha_super.mp3",
+    "type": "audio"
+  },
+  "214a7840-f648-4828-80c0-18000d8198f7": {
+    "path": "assets/characters/Cunha-cunha/214a7840-f648-4828-80c0-18000d8198f7-magia_cunha-mp4-atlas.webp",
+    "name": "magia_cunha.mp4 · atlas",
+    "type": "image"
+  },
+  "f0808269-aab6-4d8b-8bf1-940f6b544805": {
+    "path": "assets/characters/Cunha-cunha/f0808269-aab6-4d8b-8bf1-940f6b544805-super_cunha-mp4-atlas.webp",
+    "name": "super_cunha.mp4 · atlas",
+    "type": "image"
+  },
+  "12b03184-735f-4854-9204-72fefd6312be": {
+    "path": "assets/stages/Arena-de-Cunha-cunha/12b03184-735f-4854-9204-72fefd6312be-Courtroom-Drama-mp3.mp3",
+    "name": "Courtroom Drama.mp3",
+    "type": "audio"
+  },
+  "ab21caeb-083c-4c51-8031-1472b16936e8": {
+    "path": "assets/ui/selection/ab21caeb-083c-4c51-8031-1472b16936e8-background-png.png",
+    "name": "background.png",
+    "type": "image"
+  },
+  "194c57b1-c766-4bf2-a621-69b2a951b539": {
+    "path": "assets/ui/title/194c57b1-c766-4bf2-a621-69b2a951b539-Judgement-Day-mp3.mp3",
+    "name": "Judgement Day.mp3",
+    "type": "audio"
+  },
+  "da54d316-0c8c-47b7-b38e-15d4ed2f7900": {
+    "path": "assets/characters/Samuka-samuka/da54d316-0c8c-47b7-b38e-15d4ed2f7900-soco-mp3.mp3",
+    "name": "soco.mp3",
+    "type": "audio"
+  },
+  "3975f0d1-9850-47fd-ab55-c130ef934fdb": {
+    "path": "assets/characters/Samuka-samuka/3975f0d1-9850-47fd-ab55-c130ef934fdb-chute-mp3.mp3",
+    "name": "chute.mp3",
+    "type": "audio"
+  },
+  "c240c977-f7de-47d0-b287-c56c26117ff6": {
+    "path": "assets/characters/Samuka-samuka/c240c977-f7de-47d0-b287-c56c26117ff6-super-mp3.mp3",
+    "name": "super.mp3",
+    "type": "audio"
+  },
+  "312063f8-6f61-4dde-9a91-f5916e695dad": {
+    "path": "assets/characters/Samuka-samuka/312063f8-6f61-4dde-9a91-f5916e695dad-bg-webp.webp",
+    "name": "bg.webp",
+    "type": "image"
+  },
+  "4b900d8e-4a46-4358-92fb-a08296038f24": {
+    "path": "assets/characters/Samuka-samuka/4b900d8e-4a46-4358-92fb-a08296038f24-samuka_poster-webp.webp",
+    "name": "samuka_poster.webp",
+    "type": "image"
+  },
+  "84e17eed-8885-4560-9335-c74c7ee7cb0c": {
+    "path": "assets/characters/Samuka-samuka/84e17eed-8885-4560-9335-c74c7ee7cb0c-magai_samkuka_arroto-mp3.mp3",
+    "name": "magai_samkuka_arroto.mp3",
+    "type": "audio"
+  },
+  "4e8c22b5-0575-4f14-8995-6a614b0db61b": {
+    "path": "assets/characters/Samuka-samuka/4e8c22b5-0575-4f14-8995-6a614b0db61b-magia_novo-webp-atlas.webp",
+    "name": "magia_novo.webp · atlas",
+    "type": "image"
+  },
+  "acb161c5-469d-4686-a9e7-d340d19a49dd": {
+    "path": "assets/characters/Samuka-samuka/acb161c5-469d-4686-a9e7-d340d19a49dd-super-2-webp-atlas.webp",
+    "name": "super (2).webp · atlas",
+    "type": "image"
+  },
+  "f7572fc8-307e-4e22-8417-929efe15c07a": {
+    "path": "assets/characters/Calvo-calvo/f7572fc8-307e-4e22-8417-929efe15c07a-bg-webp.webp",
+    "name": "bg.webp",
+    "type": "image"
+  },
+  "7b4853c7-71b1-4a9f-ae32-0648628cca06": {
+    "path": "assets/characters/Calvo-calvo/7b4853c7-71b1-4a9f-ae32-0648628cca06-bg_portait-webp.webp",
+    "name": "bg_portait.webp",
+    "type": "image"
+  },
+  "69bd81ef-17e5-41ac-9245-13d1755a7723": {
+    "path": "assets/characters/Augustao-augustao/69bd81ef-17e5-41ac-9245-13d1755a7723-augustus_big_pt-webp.webp",
+    "name": "augustus_big_pt.webp",
+    "type": "image"
+  },
+  "79e74824-b0de-4e90-b0bf-a95a03a55c70": {
+    "path": "assets/characters/Augustao-augustao/79e74824-b0de-4e90-b0bf-a95a03a55c70-augustus_bg-webp.webp",
+    "name": "augustus_bg.webp",
+    "type": "image"
+  },
+  "6f4ed81f-7fbc-414a-8b11-f15926ed257e": {
+    "path": "assets/characters/Cheng-cheng/6f4ed81f-7fbc-414a-8b11-f15926ed257e-cheng_rooster-webp.webp",
+    "name": "cheng_rooster.webp",
+    "type": "image"
+  },
+  "6862a36e-4ac9-4d62-b441-840303778971": {
+    "path": "assets/characters/Cheng-cheng/6862a36e-4ac9-4d62-b441-840303778971-bg_portait-webp.webp",
+    "name": "bg_portait.webp",
+    "type": "image"
+  },
+  "1e1e183f-2263-4eab-a486-02f18cb7f664": {
+    "path": "assets/characters/Cheng-cheng/1e1e183f-2263-4eab-a486-02f18cb7f664-super-webp-atlas.webp",
+    "name": "super.webp · atlas",
+    "type": "image"
+  },
+  "a2eae68e-f469-486e-8dc3-ac15d55ecf53": {
+    "path": "assets/characters/Cunha-cunha/a2eae68e-f469-486e-8dc3-ac15d55ecf53-bg_cunha-webp.webp",
+    "name": "bg_cunha.webp",
+    "type": "image"
+  },
+  "3d04ca04-1896-404d-996e-12dc3653ed3a": {
+    "path": "assets/characters/Cunha-cunha/3d04ca04-1896-404d-996e-12dc3653ed3a-poster_cunha-webp.webp",
+    "name": "poster_cunha.webp",
+    "type": "image"
+  },
+  "bf9ab01a-c058-4492-a5a1-5a3be47dbfdc": {
+    "path": "assets/stages/Arena-de-Cheng-cheng/bf9ab01a-c058-4492-a5a1-5a3be47dbfdc-changs_music_64kbps-mp3.mp3",
+    "name": "changs_music_64kbps.mp3",
+    "type": "audio"
+  },
+  "b014d286-affa-4769-bdb4-793d9a72c2f2": {
+    "path": "assets/stages/Arena-Augustao-7ca248e3-8a92-4c38-b132-f8bb1a7c43d7/b014d286-affa-4769-bdb4-793d9a72c2f2-augustus-arena-webp.webp",
+    "name": "augustus arena.webp",
+    "type": "image"
+  },
+  "c2498aae-1507-402c-b8c2-4b8a36bfeccb": {
+    "path": "assets/stages/Arena-de-Calvo-calvo/c2498aae-1507-402c-b8c2-4b8a36bfeccb-48cf7de2-047e-4e9b-9497-3d50a95fa235-webp.webp",
+    "name": "48cf7de2-047e-4e9b-9497-3d50a95fa235.webp",
+    "type": "image"
+  },
+  "4fd1ba9f-8df4-4c20-b727-b7c558ee5aff": {
+    "path": "assets/stages/Sao-Joao-Del-Rey-samuka/4fd1ba9f-8df4-4c20-b727-b7c558ee5aff-samuka_bgm-mp3.mp3",
+    "name": "samuka_bgm.mp3",
+    "type": "audio"
+  },
+  "7aa13d33-466d-48d8-9ba4-ea1ef8867f25": {
+    "path": "assets/stages/Samuka-SJDR-samuka/7aa13d33-466d-48d8-9ba4-ea1ef8867f25-sjdt-webp.webp",
+    "name": "sjdt.webp",
+    "type": "image"
+  },
+  "990656a6-ea7c-4cf3-bb22-1a83820c655d": {
+    "path": "assets/stages/TORNEIO-9f19136e-6939-424a-8917-c8ab98d64449/990656a6-ea7c-4cf3-bb22-1a83820c655d-UFG26-ezgif-com-audio-converter-mp3.mp3",
+    "name": "UFG26-ezgif.com-audio-converter.mp3",
+    "type": "audio"
+  },
+  "af4e68aa-6550-4b2d-b26e-fdd612b5665d": {
+    "path": "assets/stages/TORNEIO-9f19136e-6939-424a-8917-c8ab98d64449/af4e68aa-6550-4b2d-b26e-fdd612b5665d-ufg26-webp.webp",
+    "name": "ufg26.webp",
+    "type": "image"
+  },
+  "27fb9872-507a-46dd-a418-44e27e403df8": {
+    "path": "assets/ui/ui/27fb9872-507a-46dd-a418-44e27e403df8-ROUND-1-webp.webp",
+    "name": "ROUND-1.webp",
+    "type": "image"
+  },
+  "ef37fb96-ae6a-4823-a5b6-567224e7c16b": {
+    "path": "assets/ui/ui/ef37fb96-ae6a-4823-a5b6-567224e7c16b-roun_1-mp3.mp3",
+    "name": "roun_1.mp3",
+    "type": "audio"
+  },
+  "7d8e240c-6b2e-4be9-b8c2-f8a849971d74": {
+    "path": "assets/ui/ui/7d8e240c-6b2e-4be9-b8c2-f8a849971d74-ROUND-2-webp.webp",
+    "name": "ROUND-2.webp",
+    "type": "image"
+  },
+  "39e38b73-90e7-4304-abb2-9392702df3e2": {
+    "path": "assets/ui/ui/39e38b73-90e7-4304-abb2-9392702df3e2-FINAL-ROUND-webp.webp",
+    "name": "FINAL-ROUND.webp",
+    "type": "image"
+  },
+  "c01427b5-23bd-430d-9936-4cc1d9fdca27": {
+    "path": "assets/ui/ui/c01427b5-23bd-430d-9936-4cc1d9fdca27-KO-webp.webp",
+    "name": "KO.webp",
+    "type": "image"
+  },
+  "e553efc5-fba8-45c0-ab4e-eaf9638eff7a": {
+    "path": "assets/ui/ui/e553efc5-fba8-45c0-ab4e-eaf9638eff7a-GAME-OVER-webp.webp",
+    "name": "GAME-OVER.webp",
+    "type": "image"
+  },
+  "d5d22a5f-7f6f-4607-b662-46e62573a03d": {
+    "path": "assets/ui/ui/d5d22a5f-7f6f-4607-b662-46e62573a03d-ROUND-TWO-mp3.mp3",
+    "name": "ROUND TWO.mp3",
+    "type": "audio"
+  },
+  "fa058988-2db8-4a0b-94c4-09d5143d79f7": {
+    "path": "assets/ui/ui/fa058988-2db8-4a0b-94c4-09d5143d79f7-FINAL-ROUND-mp3.mp3",
+    "name": "FINAL ROUND.mp3",
+    "type": "audio"
+  },
+  "bd72d537-2224-4386-988f-f4aec6e32795": {
+    "path": "assets/ui/ui/bd72d537-2224-4386-988f-f4aec6e32795-KNOCKOUT-mp3.mp3",
+    "name": "KNOCKOUT.mp3",
+    "type": "audio"
+  },
+  "e70a3575-79d4-4a94-ae6d-034fc0164996": {
+    "path": "assets/ui/ui/e70a3575-79d4-4a94-ae6d-034fc0164996-game-over-mp3.mp3",
+    "name": "game over.mp3",
+    "type": "audio"
+  },
+  "4927e14e-cc52-4792-a265-cbdc05af17ee": {
+    "path": "assets/ui/title/4927e14e-cc52-4792-a265-cbdc05af17ee-AVENTURA-webp.webp",
+    "name": "AVENTURA.webp",
+    "type": "image"
+  },
+  "3aaafddb-71fc-4269-bdfb-befdec9c3277": {
+    "path": "assets/ui/title/3aaafddb-71fc-4269-bdfb-befdec9c3277-TORNEIO-webp.webp",
+    "name": "TORNEIO.webp",
+    "type": "image"
+  },
+  "2171c67f-bd81-4e52-9ef7-6c0c7376c659": {
+    "path": "assets/ui/title/2171c67f-bd81-4e52-9ef7-6c0c7376c659-ARCADE-webp.webp",
+    "name": "ARCADE.webp",
+    "type": "image"
+  },
+  "8fbf3eee-fd79-42e2-acc2-95a561ca13dd": {
+    "path": "assets/ui/title/8fbf3eee-fd79-42e2-acc2-95a561ca13dd-TREINO-webp.webp",
+    "name": "TREINO.webp",
+    "type": "image"
+  },
+  "79de94db-590a-47a1-b148-137384a6941a": {
+    "path": "assets/ui/title/79de94db-590a-47a1-b148-137384a6941a-OPTIONS-webp.webp",
+    "name": "OPTIONS.webp",
+    "type": "image"
+  },
+  "4572da46-7621-4736-9b2c-efe3c4193e7f": {
+    "path": "assets/characters/Danilo-danilo/4572da46-7621-4736-9b2c-efe3c4193e7f-TIJOLO_DANILO-webp-atlas.webp",
+    "name": "TIJOLO_DANILO.webp · atlas",
+    "type": "image"
+  },
+  "018943a6-42ed-4412-a710-3310b7fdbed7": {
+    "path": "assets/characters/Danilo-danilo/018943a6-42ed-4412-a710-3310b7fdbed7-raio_port-webp-atlas.webp",
+    "name": "raio_port.webp · atlas",
+    "type": "image"
+  },
+  "6d3a0b71-2300-4648-b5f3-181222d54444": {
+    "path": "assets/characters/Danilo-danilo/6d3a0b71-2300-4648-b5f3-181222d54444-danilo_portait-webp.webp",
+    "name": "danilo_portait.webp",
+    "type": "image"
+  },
+  "ab4d8629-10ea-4aaa-acbb-9043fcedef3b": {
+    "path": "assets/characters/Danilo-danilo/ab4d8629-10ea-4aaa-acbb-9043fcedef3b-bg_danilo-webp.webp",
+    "name": "bg_danilo.webp",
+    "type": "image"
+  },
+  "0aea3048-fec2-4c08-bd69-b1a39b4e7679": {
+    "path": "assets/characters/Flavinha-flavinha/0aea3048-fec2-4c08-bd69-b1a39b4e7679-roster-96x96-webp.webp",
+    "name": "roster-96x96.webp",
+    "type": "image"
+  },
+  "3f91bc56-4370-4ea3-8e98-6f34977e3d9d": {
+    "path": "assets/characters/Flavinha-flavinha/3f91bc56-4370-4ea3-8e98-6f34977e3d9d-select-character-1080x1920-webp.webp",
+    "name": "select-character-1080x1920.webp",
+    "type": "image"
+  },
+  "60876d27-01f6-4e31-89d9-f715e450da3b": {
+    "path": "assets/stages/Danilo-Building-danilo/60876d27-01f6-4e31-89d9-f715e450da3b-Danilo_stage-mp3.mp3",
+    "name": "Danilo_stage.mp3",
+    "type": "audio"
+  },
+  "c05dff14-3a46-40e8-be1e-da07de54f397": {
+    "path": "assets/characters/Flavinha-flavinha/c05dff14-3a46-40e8-be1e-da07de54f397-magia_wav-webp-atlas.webp",
+    "name": "magia_wav.webp · atlas",
+    "type": "image"
+  },
+  "f100c1bb-7733-423a-be4e-9e24d05255b0": {
+    "path": "assets/characters/Flavinha-flavinha/f100c1bb-7733-423a-be4e-9e24d05255b0-super_flavinha-webp-atlas.webp",
+    "name": "super_flavinha.webp · atlas",
+    "type": "image"
+  },
+  "517e8ba0-5c57-4985-a365-c17f33a441b9": {
+    "path": "assets/characters/Flavinha-flavinha/517e8ba0-5c57-4985-a365-c17f33a441b9-flavinha_super-mp3.mp3",
+    "name": "flavinha_super.mp3",
+    "type": "audio"
+  },
+  "2de9b9b7-44f4-4f19-802a-3d0bb0c8fbf7": {
+    "path": "assets/characters/Flavinha-flavinha/2de9b9b7-44f4-4f19-802a-3d0bb0c8fbf7-flavinha_magai-mp3.mp3",
+    "name": "flavinha_magai.mp3",
+    "type": "audio"
+  },
+  "d304d041-0ffa-42b5-af1e-3a2f362f57a2": {
+    "path": "assets/characters/Flavinha-flavinha/d304d041-0ffa-42b5-af1e-3a2f362f57a2-flavinha_soco-mp3.mp3",
+    "name": "flavinha_soco.mp3",
+    "type": "audio"
+  },
+  "17aa54b1-d8f5-40cf-9212-ee451e72909e": {
+    "path": "assets/characters/Flavinha-flavinha/17aa54b1-d8f5-40cf-9212-ee451e72909e-flavinha_chute_som-mp3.mp3",
+    "name": "flavinha_chute_som.mp3",
+    "type": "audio"
+  },
+  "0d7e1493-f648-406b-a715-1c5bf024044a": {
+    "path": "assets/stages/Arena-de-Flavinha-flavinha/0d7e1493-f648-406b-a715-1c5bf024044a-flavinha_stage-mp3.mp3",
+    "name": "flavinha_stage.mp3",
+    "type": "audio"
+  },
+  "4004c6c6-d47e-437f-bbe3-15e1885e2121": {
+    "path": "assets/stages/Arena-de-Flavinha-flavinha/4004c6c6-d47e-437f-bbe3-15e1885e2121-flavinha_stage-webp.webp",
+    "name": "flavinha_stage.webp",
+    "type": "image"
+  },
+  "dd066d96-46a1-4f02-a6e0-58765e573d0f": {
+    "path": "assets/stages/Danilo-Building-danilo/dd066d96-46a1-4f02-a6e0-58765e573d0f-stage_danilo-webp.webp",
+    "name": "stage_danilo.webp",
+    "type": "image"
+  },
+  "e4f482f9-4289-4ef8-adb9-6171a11890d6": {
+    "path": "assets/characters/Cheng-cheng/e4f482f9-4289-4ef8-adb9-6171a11890d6-magai-webp-atlas.webp",
+    "name": "magai.webp · atlas",
+    "type": "image"
+  },
+  "d02522a6-8c5c-428b-8400-447e51dd0579": {
+    "path": "assets/characters/Danilo-danilo/d02522a6-8c5c-428b-8400-447e51dd0579-danilo_soco-mp3.mp3",
+    "name": "danilo_soco.mp3",
+    "type": "audio"
+  },
+  "dc84b47b-2a5a-4452-910c-854d44b5934d": {
+    "path": "assets/characters/Danilo-danilo/dc84b47b-2a5a-4452-910c-854d44b5934d-danilo_chute-mp3.mp3",
+    "name": "danilo_chute.mp3",
+    "type": "audio"
+  },
+  "2542f16a-31aa-4572-802a-9ee5994cac79": {
+    "path": "assets/characters/Danilo-danilo/2542f16a-31aa-4572-802a-9ee5994cac79-danilo_magia-mp3.mp3",
+    "name": "danilo_magia.mp3",
+    "type": "audio"
+  },
+  "bc2a0f84-b7be-4bd1-a34f-6efba464a7f8": {
+    "path": "assets/characters/Danilo-danilo/bc2a0f84-b7be-4bd1-a34f-6efba464a7f8-danilo_super-mp3.mp3",
+    "name": "danilo_super.mp3",
+    "type": "audio"
+  },
+  "21bd554c-d9f9-421a-a5c9-f869a85d6f39": {
+    "path": "assets/characters/Jade-797dd75c-38cf-4dc1-a814-839057b41708/21bd554c-d9f9-421a-a5c9-f869a85d6f39-jade_bg-webp.webp",
+    "name": "jade_bg.webp",
+    "type": "image"
+  },
+  "4486f938-b8a9-4f40-9ee6-ddffc03518ad": {
+    "path": "assets/characters/Jade-797dd75c-38cf-4dc1-a814-839057b41708/4486f938-b8a9-4f40-9ee6-ddffc03518ad-jade_portait-webp.webp",
+    "name": "jade_portait.webp",
+    "type": "image"
+  },
+  "26bdb619-a30a-4b58-a901-1fa7e7ad8370": {
+    "path": "assets/characters/Jade-d894b6f3-f4dd-4c0b-852e-e7cb3dbe2cf5/26bdb619-a30a-4b58-a901-1fa7e7ad8370-magia_jade-webp-atlas.webp",
+    "name": "magia_jade.webp · atlas",
+    "type": "image"
+  },
+  "85542b73-eb8f-4fda-b445-dcc238dc20b8": {
+    "path": "assets/characters/Jade-d894b6f3-f4dd-4c0b-852e-e7cb3dbe2cf5/85542b73-eb8f-4fda-b445-dcc238dc20b8-jade_super_sprite-webp-atlas.webp",
+    "name": "jade_super_sprite.webp · atlas",
+    "type": "image"
+  },
+  "5c2b2ecb-b24f-427a-b6f8-2879b8b268a6": {
+    "path": "assets/characters/Jade-d894b6f3-f4dd-4c0b-852e-e7cb3dbe2cf5/5c2b2ecb-b24f-427a-b6f8-2879b8b268a6-jade_super-2-mp3.mp3",
+    "name": "jade_super (2).mp3",
+    "type": "audio"
+  },
+  "829162b2-33a2-4261-a8c1-5bc213e73bb1": {
+    "path": "assets/characters/Jade-d894b6f3-f4dd-4c0b-852e-e7cb3dbe2cf5/829162b2-33a2-4261-a8c1-5bc213e73bb1-jade_super-1-mp3.mp3",
+    "name": "jade_super (1).mp3",
+    "type": "audio"
+  },
+  "00761a98-ab2f-4e53-bcdd-47cf7134cfeb": {
+    "path": "assets/characters/Jade-d894b6f3-f4dd-4c0b-852e-e7cb3dbe2cf5/00761a98-ab2f-4e53-bcdd-47cf7134cfeb-jade_magia-1-mp3.mp3",
+    "name": "jade_magia (1).mp3",
+    "type": "audio"
+  },
+  "ef9fe6a9-2bc9-4343-80ef-b7c142e1e617": {
+    "path": "assets/characters/Jade-d894b6f3-f4dd-4c0b-852e-e7cb3dbe2cf5/ef9fe6a9-2bc9-4343-80ef-b7c142e1e617-jade_soco-mp3.mp3",
+    "name": "jade_soco.mp3",
+    "type": "audio"
+  },
+  "4ae427fb-8765-48b2-b1e1-e6dc7217259d": {
+    "path": "assets/stages/Jades-Palace-99195be2-8131-480c-8e99-16e4cbc18144/4ae427fb-8765-48b2-b1e1-e6dc7217259d-stage_jade-webp.webp",
+    "name": "stage_jade.webp",
+    "type": "image"
+  },
+  "82ea4cd6-fb87-488a-ab26-3c9b05252b5a": {
+    "path": "assets/stages/Jades-Palace-99195be2-8131-480c-8e99-16e4cbc18144/82ea4cd6-fb87-488a-ab26-3c9b05252b5a-jade_bgm-mp3.mp3",
+    "name": "jade_bgm.mp3",
+    "type": "audio"
+  },
+  "de7c6478-4136-491c-a616-25432c6b5a44": {
+    "path": "assets/stages/Arena-Augustao-7ca248e3-8a92-4c38-b132-f8bb1a7c43d7/de7c6478-4136-491c-a616-25432c6b5a44-augustus_stage_64kbps-mp3.mp3",
+    "name": "augustus_stage_64kbps.mp3",
+    "type": "audio"
+  },
+  "1b9033a5-8626-46b1-891f-949b113f39e1": {
+    "path": "assets/characters/Leo-leo/1b9033a5-8626-46b1-891f-949b113f39e1-leo_bg-webp.webp",
+    "name": "leo_bg.webp",
+    "type": "image"
+  },
+  "64f3a552-ba08-4bcb-adc2-3b6dbcb56c69": {
+    "path": "assets/characters/Leo-leo/64f3a552-ba08-4bcb-adc2-3b6dbcb56c69-leo_portait-webp.webp",
+    "name": "leo_portait.webp",
+    "type": "image"
+  },
+  "1b1858bf-f062-4c2e-a72d-fe16bda30f2c": {
+    "path": "assets/characters/Leo-leo/1b1858bf-f062-4c2e-a72d-fe16bda30f2c-leo_soco-1-mp3.mp3",
+    "name": "leo_soco (1).mp3",
+    "type": "audio"
+  },
+  "606dcaff-54e3-44dd-a424-341f72e8e7bc": {
+    "path": "assets/characters/Leo-leo/606dcaff-54e3-44dd-a424-341f72e8e7bc-leo_chute-mp3.mp3",
+    "name": "leo_chute.mp3",
+    "type": "audio"
+  },
+  "98c98a3d-d7fa-40ee-9bfa-442dda704516": {
+    "path": "assets/characters/Leo-leo/98c98a3d-d7fa-40ee-9bfa-442dda704516-leo_magai-webp-atlas.webp",
+    "name": "leo_magai.webp · atlas",
+    "type": "image"
+  },
+  "7e6dd885-8aec-440f-97c1-4eb5ff422904": {
+    "path": "assets/characters/Leo-leo/7e6dd885-8aec-440f-97c1-4eb5ff422904-leo_magia-mp3.mp3",
+    "name": "leo_magia.mp3",
+    "type": "audio"
+  },
+  "72684e87-1a10-49cd-acba-a9c3c311d4b3": {
+    "path": "assets/characters/Leo-leo/72684e87-1a10-49cd-acba-a9c3c311d4b3-leo_super_s-webp-atlas.webp",
+    "name": "leo_super_s.webp · atlas",
+    "type": "image"
+  },
+  "40f1bc4e-4346-4a63-84c8-a4ab21097079": {
+    "path": "assets/characters/Leo-leo/40f1bc4e-4346-4a63-84c8-a4ab21097079-leo_super-mp3.mp3",
+    "name": "leo_super.mp3",
+    "type": "audio"
+  },
+  "79b6a5ba-c67a-4ed7-9b22-ac705cceb100": {
+    "path": "assets/stages/Arena-de-Leo-leo/79b6a5ba-c67a-4ed7-9b22-ac705cceb100-leostgae-webp.webp",
+    "name": "leostgae.webp",
+    "type": "image"
+  },
+  "7b48b38e-8d85-4e76-9be3-4b468641f836": {
+    "path": "assets/stages/Arena-de-Leo-leo/7b48b38e-8d85-4e76-9be3-4b468641f836-leo_stage-mp3.mp3",
+    "name": "leo_stage.mp3",
+    "type": "audio"
+  },
+  "8c69f4e3-eb2a-4d3b-8ee1-23c96bc50cc4": {
+    "path": "assets/characters/Kley-kley/8c69f4e3-eb2a-4d3b-8ee1-23c96bc50cc4-kley_bg-webp.webp",
+    "name": "kley_bg.webp",
+    "type": "image"
+  },
+  "b8f7a7a9-df6b-4165-aeb3-7a3988e1e58d": {
+    "path": "assets/characters/Kley-kley/b8f7a7a9-df6b-4165-aeb3-7a3988e1e58d-kley_selecy-webp.webp",
+    "name": "kley_selecy.webp",
+    "type": "image"
+  },
+  "95613b41-c731-44f0-9b4f-600493dbe1f1": {
+    "path": "assets/ui/mobile/95613b41-c731-44f0-9b4f-600493dbe1f1-soco-webp.webp",
+    "name": "soco.webp",
+    "type": "image"
+  },
+  "f608e59b-dc9c-4f2f-a0d3-2eb3e28ad1b1": {
+    "path": "assets/ui/mobile/f608e59b-dc9c-4f2f-a0d3-2eb3e28ad1b1-magia-webp.webp",
+    "name": "magia.webp",
+    "type": "image"
+  },
+  "08b333fa-da18-477f-bc8d-65916fb69489": {
+    "path": "assets/ui/mobile/08b333fa-da18-477f-bc8d-65916fb69489-super-webp.webp",
+    "name": "super.webp",
+    "type": "image"
+  },
+  "4393635e-4581-4366-a722-40b7736632f4": {
+    "path": "assets/ui/mobile/4393635e-4581-4366-a722-40b7736632f4-chute-webp.webp",
+    "name": "chute.webp",
+    "type": "image"
+  },
+  "3f265b20-a1a6-4ec2-832b-cd2619c4a93b": {
+    "path": "assets/characters/Kley-kley/3f265b20-a1a6-4ec2-832b-cd2619c4a93b-kley_magia_sprite-webp-atlas.webp",
+    "name": "kley_magia_sprite.webp · atlas",
+    "type": "image"
+  },
+  "f03bd886-945d-41d5-90e1-b6a82ade7e27": {
+    "path": "assets/characters/Kley-kley/f03bd886-945d-41d5-90e1-b6a82ade7e27-kley_super_spt-webp-atlas.webp",
+    "name": "kley_super_spt.webp · atlas",
+    "type": "image"
+  },
+  "cc0215c4-0fb3-4cd2-a40c-9ee84a1f6fdc": {
+    "path": "assets/characters/Kley-kley/cc0215c4-0fb3-4cd2-a40c-9ee84a1f6fdc-kley_super-mp3.mp3",
+    "name": "kley_super.mp3",
+    "type": "audio"
+  },
+  "f076262a-525b-4541-8f46-0e18ce698036": {
+    "path": "assets/characters/Kley-kley/f076262a-525b-4541-8f46-0e18ce698036-kley_magia-mp3.mp3",
+    "name": "kley_magia.mp3",
+    "type": "audio"
+  },
+  "da610b3a-c25f-45da-b96f-f42340d2d5d2": {
+    "path": "assets/characters/Kley-kley/da610b3a-c25f-45da-b96f-f42340d2d5d2-kley_soco-mp3.mp3",
+    "name": "kley_soco.mp3",
+    "type": "audio"
+  },
+  "d3ad9965-6879-4a4e-ab4b-dbc0cb3efacf": {
+    "path": "assets/characters/Kley-kley/d3ad9965-6879-4a4e-ab4b-dbc0cb3efacf-kley_chute-mp3.mp3",
+    "name": "kley_chute.mp3",
+    "type": "audio"
+  },
+  "216b3717-fd87-4f09-8609-10c6420af831": {
+    "path": "assets/stages/Arena-de-Kley-kley/216b3717-fd87-4f09-8609-10c6420af831-kley_stage-mp3.mp3",
+    "name": "kley_stage.mp3",
+    "type": "audio"
+  },
+  "c10db803-3672-4114-8bb6-715376ff6880": {
+    "path": "assets/characters/Vitao-vitao/c10db803-3672-4114-8bb6-715376ff6880-eu_bg-webp.webp",
+    "name": "eu_bg.webp",
+    "type": "image"
+  },
+  "13bc1d90-faa1-4467-a060-21098c424bfc": {
+    "path": "assets/characters/Vitao-vitao/13bc1d90-faa1-4467-a060-21098c424bfc-eu_select-webp.webp",
+    "name": "eu_select.webp",
+    "type": "image"
+  },
+  "e9b7c82b-c24c-40fb-8fbf-334a69b94cc4": {
+    "path": "assets/characters/Vitao-vitao/e9b7c82b-c24c-40fb-8fbf-334a69b94cc4-magia-webp-atlas.webp",
+    "name": "magia.webp · atlas",
+    "type": "image"
+  },
+  "b7eadb4d-8088-48d3-8468-34616d675023": {
+    "path": "assets/characters/Vitao-vitao/b7eadb4d-8088-48d3-8468-34616d675023-super-webp-atlas.webp",
+    "name": "super.webp · atlas",
+    "type": "image"
+  },
+  "59b2d5af-7a2f-4f5d-aceb-c46733a56999": {
+    "path": "assets/characters/Vitao-vitao/59b2d5af-7a2f-4f5d-aceb-c46733a56999-eu_super-mp3.mp3",
+    "name": "eu_super.mp3",
+    "type": "audio"
+  },
+  "ab2d0acc-a90a-4e6b-98a7-ac780e16c8c3": {
+    "path": "assets/characters/Vitao-vitao/ab2d0acc-a90a-4e6b-98a7-ac780e16c8c3-eu_magia-mp3.mp3",
+    "name": "eu_magia.mp3",
+    "type": "audio"
+  },
+  "8cfa088e-e3dd-4a66-82f8-75f9d67a6f05": {
+    "path": "assets/characters/Vitao-vitao/8cfa088e-e3dd-4a66-82f8-75f9d67a6f05-eu_soco-mp3.mp3",
+    "name": "eu_soco.mp3",
+    "type": "audio"
+  },
+  "e89821d4-3a16-4370-b69b-c666cab19c17": {
+    "path": "assets/stages/Calcadao-de-Oz-vitao/e89821d4-3a16-4370-b69b-c666cab19c17-bg_vitus-mp3.mp3",
+    "name": "bg_vitus.mp3",
+    "type": "audio"
+  },
+  "35f6b883-4321-4786-a240-4fd027d3c172": {
+    "path": "assets/characters/Maicon-maicon/35f6b883-4321-4786-a240-4fd027d3c172-maicon_bg-webp.webp",
+    "name": "maicon_bg.webp",
+    "type": "image"
+  },
+  "c28fe85b-13a4-4eaa-a0cb-0d0b05bed0d6": {
+    "path": "assets/characters/Maicon-maicon/c28fe85b-13a4-4eaa-a0cb-0d0b05bed0d6-maicon_select-webp.webp",
+    "name": "maicon_select.webp",
+    "type": "image"
+  },
+  "00492dd2-acb9-40f7-b4e8-551d5cf6863a": {
+    "path": "assets/characters/Maicon-maicon/00492dd2-acb9-40f7-b4e8-551d5cf6863a-caixa_magia-webp-atlas.webp",
+    "name": "caixa_magia.webp · atlas",
+    "type": "image"
+  },
+  "e5edb0a5-a907-46e3-8bbc-ddb6bd140813": {
+    "path": "assets/characters/Maicon-maicon/e5edb0a5-a907-46e3-8bbc-ddb6bd140813-super-webp-atlas.webp",
+    "name": "super.webp · atlas",
+    "type": "image"
+  },
+  "32ad9e14-081e-4fc3-bcc2-f5ce12400529": {
+    "path": "assets/characters/Maicon-maicon/32ad9e14-081e-4fc3-bcc2-f5ce12400529-maicon_soco-mp3.mp3",
+    "name": "maicon_soco.mp3",
+    "type": "audio"
+  },
+  "75fbf3bb-67e8-4834-b45f-1293e3f72ef8": {
+    "path": "assets/characters/Maicon-maicon/75fbf3bb-67e8-4834-b45f-1293e3f72ef8-chute_maicon-mp3.mp3",
+    "name": "chute_maicon.mp3",
+    "type": "audio"
+  },
+  "2b18202c-a8b6-4b05-b9e6-a3e71be94232": {
+    "path": "assets/characters/Maicon-maicon/2b18202c-a8b6-4b05-b9e6-a3e71be94232-magia_maicon-mp3.mp3",
+    "name": "magia_maicon.mp3",
+    "type": "audio"
+  },
+  "26971606-df8e-4609-b00c-1b125acf7cdc": {
+    "path": "assets/characters/Maicon-maicon/26971606-df8e-4609-b00c-1b125acf7cdc-maicon_super-mp3.mp3",
+    "name": "maicon_super.mp3",
+    "type": "audio"
+  },
+  "cb2465ed-eb8d-4573-bcc8-43a999e0da76": {
+    "path": "assets/stages/Roldao-Palace-maicon/cb2465ed-eb8d-4573-bcc8-43a999e0da76-maicon_bgm-mp3.mp3",
+    "name": "maicon_bgm.mp3",
+    "type": "audio"
+  },
+  "5e3c797d-4269-4b2d-8023-5885d07d9082": {
+    "path": "assets/characters/Moraes-moraes/5e3c797d-4269-4b2d-8023-5885d07d9082-moraes_idle_bg-webp.webp",
+    "name": "moraes_idle_bg.webp",
+    "type": "image"
+  },
+  "eca82197-ae5f-40d1-b12d-d762f57bb53d": {
+    "path": "assets/characters/Moraes-moraes/eca82197-ae5f-40d1-b12d-d762f57bb53d-moraes_select-webp.webp",
+    "name": "moraes_select.webp",
+    "type": "image"
+  },
+  "b265b277-7ea1-46b7-b472-b59206f69193": {
+    "path": "assets/characters/Moraes-moraes/b265b277-7ea1-46b7-b472-b59206f69193-magia_moveset-webp-atlas.webp",
+    "name": "magia_moveset.webp · atlas",
+    "type": "image"
+  },
+  "57d3b70e-2a71-4319-a787-9030b16f2a1e": {
+    "path": "assets/characters/Moraes-moraes/57d3b70e-2a71-4319-a787-9030b16f2a1e-super-webp-atlas.webp",
+    "name": "super.webp · atlas",
+    "type": "image"
+  },
+  "5843c293-ddd5-46de-9d92-52ac9a3b4da9": {
+    "path": "assets/characters/Moraes-moraes/5843c293-ddd5-46de-9d92-52ac9a3b4da9-moraes_soco-mp3.mp3",
+    "name": "moraes_soco.mp3",
+    "type": "audio"
+  },
+  "722c91a3-d34e-47ed-b9e7-ef11458cb24f": {
+    "path": "assets/characters/Moraes-moraes/722c91a3-d34e-47ed-b9e7-ef11458cb24f-moraes_chute-mp3.mp3",
+    "name": "moraes_chute.mp3",
+    "type": "audio"
+  },
+  "3ecd631f-f70d-4ecb-95bf-8423e4ad2e45": {
+    "path": "assets/characters/Moraes-moraes/3ecd631f-f70d-4ecb-95bf-8423e4ad2e45-moraes_magia-mp3.mp3",
+    "name": "moraes_magia.mp3",
+    "type": "audio"
+  },
+  "7c379d61-f47a-4b45-882e-2fe8374e6923": {
+    "path": "assets/characters/Moraes-moraes/7c379d61-f47a-4b45-882e-2fe8374e6923-moraes_super-mp3.mp3",
+    "name": "moraes_super.mp3",
+    "type": "audio"
+  },
+  "92e3839c-2556-44e8-a5cf-05c07c4b9c4d": {
+    "path": "assets/stages/Padock-moraes/92e3839c-2556-44e8-a5cf-05c07c4b9c4d-senna_bgm-ezgif-com-audio-converter-mp3.mp3",
+    "name": "senna_bgm-ezgif.com-audio-converter.mp3",
+    "type": "audio"
+  },
+  "f68c3805-8e05-436b-adc2-e7edd8ce1731": {
+    "path": "assets/characters/Raphael-raphael/f68c3805-8e05-436b-adc2-e7edd8ce1731-raphael_bg-webp.webp",
+    "name": "raphael_bg.webp",
+    "type": "image"
+  },
+  "6c81213d-b503-4630-abf4-91a91c0a749f": {
+    "path": "assets/characters/Raphael-raphael/6c81213d-b503-4630-abf4-91a91c0a749f-rapahael_select-webp.webp",
+    "name": "rapahael_select.webp",
+    "type": "image"
+  },
+  "b56bf139-d3d4-4525-bd2b-132f7ca15e50": {
+    "path": "assets/characters/Raphael-raphael/b56bf139-d3d4-4525-bd2b-132f7ca15e50-magiaV2-webp-atlas.webp",
+    "name": "magiaV2.webp · atlas",
+    "type": "image"
+  },
+  "5ce5c227-e884-4195-b5c7-faa25e72ec26": {
+    "path": "assets/characters/Raphael-raphael/5ce5c227-e884-4195-b5c7-faa25e72ec26-blaze_red-mp3.mp3",
+    "name": "blaze_red.mp3",
+    "type": "audio"
+  },
+  "56ccf777-ee07-401b-aa03-52facf53ba54": {
+    "path": "assets/characters/Raphael-raphael/56ccf777-ee07-401b-aa03-52facf53ba54-super-mp3.mp3",
+    "name": "super.mp3",
+    "type": "audio"
+  },
+  "7ff85855-6da2-4693-9036-48af95630442": {
+    "path": "assets/characters/Raphael-raphael/7ff85855-6da2-4693-9036-48af95630442-soco-mp3.mp3",
+    "name": "soco.mp3",
+    "type": "audio"
+  },
+  "751c91ee-d403-49e3-952c-4d8e1f811f4f": {
+    "path": "assets/characters/Raphael-raphael/751c91ee-d403-49e3-952c-4d8e1f811f4f-chute-mp3.mp3",
+    "name": "chute.mp3",
+    "type": "audio"
+  },
+  "e430d680-5b8f-42f2-bb94-2c78267b37a0": {
+    "path": "assets/characters/Raphael-raphael/e430d680-5b8f-42f2-bb94-2c78267b37a0-whites-webp-atlas.webp",
+    "name": "whites.webp · atlas",
+    "type": "image"
+  },
+  "982b0524-80ec-454d-bfd6-32ee24d35fab": {
+    "path": "assets/characters/Wagnao-wagnao/982b0524-80ec-454d-bfd6-32ee24d35fab-wg_bg-webp.webp",
+    "name": "wg_bg.webp",
+    "type": "image"
+  },
+  "87500fb9-5447-456e-a3fc-603ab56413b4": {
+    "path": "assets/characters/Wagnao-wagnao/87500fb9-5447-456e-a3fc-603ab56413b4-wg_select-webp.webp",
+    "name": "wg_select.webp",
+    "type": "image"
+  },
+  "8a071246-03f7-4366-916f-36662da10b4e": {
+    "path": "assets/stages/Arena-de-Calvo-calvo/8a071246-03f7-4366-916f-36662da10b4e-calvo_arena_64kbps-mp3.mp3",
+    "name": "calvo_arena_64kbps.mp3",
+    "type": "audio"
+  },
+  "3f491178-fcc9-473e-9a93-60c6760b5bcb": {
+    "path": "assets/characters/Wagnao-wagnao/3f491178-fcc9-473e-9a93-60c6760b5bcb-dente-m-webp-atlas.webp",
+    "name": "dente+m.webp · atlas",
+    "type": "image"
+  },
+  "d3febf58-c8bc-42ca-9ea8-53e43b08ceee": {
+    "path": "assets/characters/Wagnao-wagnao/d3febf58-c8bc-42ca-9ea8-53e43b08ceee-broca-webp-atlas.webp",
+    "name": "broca.webp · atlas",
+    "type": "image"
+  },
+  "eec50f53-9c92-44a0-afd9-4960151c7a3b": {
+    "path": "assets/stages/Wag-s-Dental-Care-wagnao/eec50f53-9c92-44a0-afd9-4960151c7a3b-MolarMadness-ezgif-com-audio-converter-mp3.mp3",
+    "name": "MolarMadness-ezgif.com-audio-converter.mp3",
+    "type": "audio"
+  },
+  "8343ea0f-e980-4782-81ff-4a21b4029345": {
+    "path": "assets/characters/Wagnao-wagnao/8343ea0f-e980-4782-81ff-4a21b4029345-soco-mp3.mp3",
+    "name": "soco.mp3",
+    "type": "audio"
+  },
+  "a67b0658-a39f-4f43-aa06-d9afd6ea7f2c": {
+    "path": "assets/characters/Wagnao-wagnao/a67b0658-a39f-4f43-aa06-d9afd6ea7f2c-smah-mp3.mp3",
+    "name": "smah.mp3",
+    "type": "audio"
+  },
+  "6e412898-b650-46db-a8a5-e6ed1f43edcd": {
+    "path": "assets/characters/Wagnao-wagnao/6e412898-b650-46db-a8a5-e6ed1f43edcd-magia-mp3.mp3",
+    "name": "magia.mp3",
+    "type": "audio"
+  },
+  "84985a0a-1934-4835-8429-383841d05355": {
+    "path": "assets/characters/Wagnao-wagnao/84985a0a-1934-4835-8429-383841d05355-super-mp3.mp3",
+    "name": "super.mp3",
+    "type": "audio"
+  },
+  "a6fc668b-fb4a-46b7-8644-59d5c56f3e3c": {
+    "path": "assets/characters/The-Big-M-boss/a6fc668b-fb4a-46b7-8644-59d5c56f3e3c-massis_bg-webp.webp",
+    "name": "massis_bg.webp",
+    "type": "image"
+  },
+  "fc557e05-e63c-46db-850d-126302c4f11c": {
+    "path": "assets/characters/The-Big-M-boss/fc557e05-e63c-46db-850d-126302c4f11c-massis_select-webp.webp",
+    "name": "massis_select.webp",
+    "type": "image"
+  },
+  "85283e89-50bc-44c8-8b3d-32f79c69051b": {
+    "path": "assets/characters/The-Big-M-boss/85283e89-50bc-44c8-8b3d-32f79c69051b-magia-mp3.mp3",
+    "name": "magia.mp3",
+    "type": "audio"
+  },
+  "19add610-3b15-4e47-9351-c199a3d2deb4": {
+    "path": "assets/characters/The-Big-M-boss/19add610-3b15-4e47-9351-c199a3d2deb4-magia-webp-atlas.webp",
+    "name": "magia.webp · atlas",
+    "type": "image"
+  },
+  "8774600c-223c-4077-a824-2ffeaff7cc52": {
+    "path": "assets/characters/The-Big-M-boss/8774600c-223c-4077-a824-2ffeaff7cc52-super-webp-atlas.webp",
+    "name": "super.webp · atlas",
+    "type": "image"
+  },
+  "ff4a1eed-e144-4ba8-983c-1628a9be430d": {
+    "path": "assets/characters/The-Big-M-boss/ff4a1eed-e144-4ba8-983c-1628a9be430d-super-mp3.mp3",
+    "name": "super.mp3",
+    "type": "audio"
+  },
+  "b0e23508-530c-490e-8cb5-4ff646322b44": {
+    "path": "assets/stages/Masss-Lair-boss/b0e23508-530c-490e-8cb5-4ff646322b44-Doom-Incarnate-mp3.mp3",
+    "name": "Doom Incarnate.mp3",
+    "type": "audio"
+  },
+  "ac5cd0a0-e047-4b7d-a77b-e239e0ee074b": {
+    "path": "assets/characters/Augustao-augustao/ac5cd0a0-e047-4b7d-a77b-e239e0ee074b-Augustao-atlas.webp",
+    "name": "Augustão · atlas",
+    "type": "image"
+  },
+  "f08cd27d-b860-41d8-86da-8723413fa029": {
+    "path": "assets/characters/Augustao-augustao/f08cd27d-b860-41d8-86da-8723413fa029-Augustao-atlas-2.webp",
+    "name": "Augustão · atlas 2",
+    "type": "image"
+  },
+  "ca2a04e3-ba38-489a-ac13-8462c95a34a4": {
+    "path": "assets/characters/Calvo-calvo/ca2a04e3-ba38-489a-ac13-8462c95a34a4-Calvo-atlas.webp",
+    "name": "Calvo · atlas",
+    "type": "image"
+  },
+  "2c598fe6-c976-4fa3-9066-af884a7de6a9": {
+    "path": "assets/characters/Calvo-calvo/2c598fe6-c976-4fa3-9066-af884a7de6a9-Calvo-atlas-2.webp",
+    "name": "Calvo · atlas 2",
+    "type": "image"
+  },
+  "39569eb4-8fdb-4fbc-bec7-be081cc406e7": {
+    "path": "assets/characters/Cheng-cheng/39569eb4-8fdb-4fbc-bec7-be081cc406e7-Cheng-atlas.webp",
+    "name": "Cheng · atlas",
+    "type": "image"
+  },
+  "14d3cca2-ed59-4f04-b668-2abdf983ba0c": {
+    "path": "assets/characters/Cheng-cheng/14d3cca2-ed59-4f04-b668-2abdf983ba0c-Cheng-atlas-2.webp",
+    "name": "Cheng · atlas 2",
+    "type": "image"
+  },
+  "eee26727-c9a2-4baf-8c6f-963408bad272": {
+    "path": "assets/characters/Cunha-cunha/eee26727-c9a2-4baf-8c6f-963408bad272-Cunha-atlas.webp",
+    "name": "Cunha · atlas",
+    "type": "image"
+  },
+  "13a6b155-4fb4-4032-a0a0-5d177036f044": {
+    "path": "assets/characters/Cunha-cunha/13a6b155-4fb4-4032-a0a0-5d177036f044-Cunha-atlas-2.webp",
+    "name": "Cunha · atlas 2",
+    "type": "image"
+  },
+  "94d64d3d-03e9-4591-991b-ca89be5abf19": {
+    "path": "assets/characters/Danilo-danilo/94d64d3d-03e9-4591-991b-ca89be5abf19-Danilo-atlas.webp",
+    "name": "Danilo · atlas",
+    "type": "image"
+  },
+  "bdc1ed7c-3de2-46da-a418-57e288fce6c5": {
+    "path": "assets/characters/Danilo-danilo/bdc1ed7c-3de2-46da-a418-57e288fce6c5-Danilo-atlas-2.webp",
+    "name": "Danilo · atlas 2",
+    "type": "image"
+  },
+  "cbf020ae-db4f-48a2-a379-3f95e23c1b96": {
+    "path": "assets/characters/Flavinha-flavinha/cbf020ae-db4f-48a2-a379-3f95e23c1b96-Flavinha-atlas.webp",
+    "name": "Flavinha · atlas",
+    "type": "image"
+  },
+  "45926ed7-7c1c-446f-ac75-5cafe8ab99a1": {
+    "path": "assets/characters/Flavinha-flavinha/45926ed7-7c1c-446f-ac75-5cafe8ab99a1-Flavinha-atlas-2.webp",
+    "name": "Flavinha · atlas 2",
+    "type": "image"
+  },
+  "dd64f60c-e2c0-44bb-ba5a-93f7c477e6b6": {
+    "path": "assets/characters/Kley-kley/dd64f60c-e2c0-44bb-ba5a-93f7c477e6b6-Kley-atlas.webp",
+    "name": "Kley · atlas",
+    "type": "image"
+  },
+  "5a90046a-e910-47c3-847c-aa52ca36d07e": {
+    "path": "assets/characters/Kley-kley/5a90046a-e910-47c3-847c-aa52ca36d07e-Kley-atlas-2.webp",
+    "name": "Kley · atlas 2",
+    "type": "image"
+  },
+  "2617bea9-292e-4d0c-9ab8-b757c43cfd42": {
+    "path": "assets/characters/Leo-leo/2617bea9-292e-4d0c-9ab8-b757c43cfd42-Leo-atlas.webp",
+    "name": "Leo · atlas",
+    "type": "image"
+  },
+  "ad4e9b61-eec4-4c0e-a45b-5ec264948129": {
+    "path": "assets/characters/Leo-leo/ad4e9b61-eec4-4c0e-a45b-5ec264948129-Leo-atlas-2.webp",
+    "name": "Leo · atlas 2",
+    "type": "image"
+  },
+  "03b0c1a9-ee69-4428-a4d3-0fcfdf3336ab": {
+    "path": "assets/characters/Maicon-maicon/03b0c1a9-ee69-4428-a4d3-0fcfdf3336ab-Maicon-atlas.webp",
+    "name": "Maicon · atlas",
+    "type": "image"
+  },
+  "f741836e-a3b5-4107-8cb4-a3a4566349ea": {
+    "path": "assets/characters/Maicon-maicon/f741836e-a3b5-4107-8cb4-a3a4566349ea-Maicon-atlas-2.webp",
+    "name": "Maicon · atlas 2",
+    "type": "image"
+  },
+  "b3acf696-2fdd-49f0-85a8-3e6d665be30f": {
+    "path": "assets/characters/Maicon-maicon/b3acf696-2fdd-49f0-85a8-3e6d665be30f-Maicon-atlas-3.webp",
+    "name": "Maicon · atlas 3",
+    "type": "image"
+  },
+  "eacbf5bc-8a99-43a0-b8b4-906b0c57214c": {
+    "path": "assets/characters/Moraes-moraes/eacbf5bc-8a99-43a0-b8b4-906b0c57214c-Moraes-atlas.webp",
+    "name": "Moraes · atlas",
+    "type": "image"
+  },
+  "44d6af17-01a6-46c8-b99f-14546c22279a": {
+    "path": "assets/characters/Moraes-moraes/44d6af17-01a6-46c8-b99f-14546c22279a-Moraes-atlas-2.webp",
+    "name": "Moraes · atlas 2",
+    "type": "image"
+  },
+  "0d2b7af0-c113-45db-af29-7fff9a9cf403": {
+    "path": "assets/characters/Raphael-raphael/0d2b7af0-c113-45db-af29-7fff9a9cf403-Raphael-atlas.webp",
+    "name": "Raphael · atlas",
+    "type": "image"
+  },
+  "e36cf195-e31f-4163-a5a7-c8487c11710d": {
+    "path": "assets/characters/Raphael-raphael/e36cf195-e31f-4163-a5a7-c8487c11710d-Raphael-atlas-2.webp",
+    "name": "Raphael · atlas 2",
+    "type": "image"
+  },
+  "20975133-1556-450d-b0bd-cb8bb2f48e70": {
+    "path": "assets/characters/Samuka-samuka/20975133-1556-450d-b0bd-cb8bb2f48e70-Samuka-atlas.webp",
+    "name": "Samuka · atlas",
+    "type": "image"
+  },
+  "da0e1dda-ca92-4133-9d14-ecb042658021": {
+    "path": "assets/characters/Samuka-samuka/da0e1dda-ca92-4133-9d14-ecb042658021-Samuka-atlas-2.webp",
+    "name": "Samuka · atlas 2",
+    "type": "image"
+  },
+  "5207a680-8dbc-40ab-9e15-7a31c2acb734": {
+    "path": "assets/characters/Samuka-samuka/5207a680-8dbc-40ab-9e15-7a31c2acb734-Samuka-atlas-3.webp",
+    "name": "Samuka · atlas 3",
+    "type": "image"
+  },
+  "f4e6e332-c118-4e14-a0a5-68dfb6756665": {
+    "path": "assets/characters/Samuka-samuka/f4e6e332-c118-4e14-a0a5-68dfb6756665-Samuka-atlas-4.webp",
+    "name": "Samuka · atlas 4",
+    "type": "image"
+  },
+  "07300ecd-5457-4d58-89c9-0d80d2f7accb": {
+    "path": "assets/characters/Vitao-vitao/07300ecd-5457-4d58-89c9-0d80d2f7accb-Vitao-atlas.webp",
+    "name": "Vitão · atlas",
+    "type": "image"
+  },
+  "ce8db211-cff6-402c-ab4c-5318116d97ad": {
+    "path": "assets/characters/Vitao-vitao/ce8db211-cff6-402c-ab4c-5318116d97ad-Vitao-atlas-2.webp",
+    "name": "Vitão · atlas 2",
+    "type": "image"
+  },
+  "39269ed5-b70d-4a16-b3b1-f3dd106e9245": {
+    "path": "assets/characters/Wagnao-wagnao/39269ed5-b70d-4a16-b3b1-f3dd106e9245-Wagnao-atlas.webp",
+    "name": "Wagnão · atlas",
+    "type": "image"
+  },
+  "2c563b48-3c17-44ad-a7f3-c67fb2b02304": {
+    "path": "assets/characters/Wagnao-wagnao/2c563b48-3c17-44ad-a7f3-c67fb2b02304-Wagnao-atlas-2.webp",
+    "name": "Wagnão · atlas 2",
+    "type": "image"
+  },
+  "e4189a0f-e913-4dcc-a1b7-7e8953e1ec67": {
+    "path": "assets/characters/The-Big-M-boss/e4189a0f-e913-4dcc-a1b7-7e8953e1ec67-The-Big-M-atlas.webp",
+    "name": "The Big M · atlas",
+    "type": "image"
+  },
+  "217a7d5a-486d-4b8c-8494-3436e345ae9a": {
+    "path": "assets/characters/The-Big-M-boss/217a7d5a-486d-4b8c-8494-3436e345ae9a-The-Big-M-atlas-2.webp",
+    "name": "The Big M · atlas 2",
+    "type": "image"
+  },
+  "47c4fea1-5470-4be1-823f-1b7d1cbe67cd": {
+    "path": "assets/characters/The-Big-M-boss/47c4fea1-5470-4be1-823f-1b7d1cbe67cd-The-Big-M-atlas-3.webp",
+    "name": "The Big M · atlas 3",
+    "type": "image"
+  },
+  "f010c853-62f2-4918-8c69-de13f0ab6783": {
+    "path": "assets/characters/Jade-d894b6f3-f4dd-4c0b-852e-e7cb3dbe2cf5/f010c853-62f2-4918-8c69-de13f0ab6783-Jade-atlas.webp",
+    "name": "Jade · atlas",
+    "type": "image"
+  },
+  "0b15b616-64bc-449d-a155-86ad92e76f04": {
+    "path": "assets/characters/Jade-d894b6f3-f4dd-4c0b-852e-e7cb3dbe2cf5/0b15b616-64bc-449d-a155-86ad92e76f04-Jade-atlas-2.webp",
+    "name": "Jade · atlas 2",
+    "type": "image"
+  }
+}

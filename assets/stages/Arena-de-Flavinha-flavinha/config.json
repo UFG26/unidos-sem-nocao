@@ -1,0 +1,23 @@
+{
+  "id": "flavinha",
+  "name": "Arena de Flavinha",
+  "width": 1700,
+  "floor": 470,
+  "music": "0d7e1493-f648-406b-a715-1c5bf024044a",
+  "layers": [
+    {
+      "id": "e685db8f-67b3-4017-9a24-cd44c517857b",
+      "name": "flavinha_stage.webp",
+      "asset": "4004c6c6-d47e-437f-bbe3-15e1885e2121",
+      "x": -1,
+      "y": -10,
+      "width": 1712,
+      "height": 605,
+      "z": 0,
+      "parallax": 1,
+      "opacity": 1,
+      "frames": [],
+      "fps": 12
+    }
+  ]
+}

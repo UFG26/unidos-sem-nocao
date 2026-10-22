@@ -1,0 +1,23 @@
+{
+  "id": "9f19136e-6939-424a-8917-c8ab98d64449",
+  "name": "TORNEIO",
+  "width": 1700,
+  "floor": 470,
+  "music": "990656a6-ea7c-4cf3-bb22-1a83820c655d",
+  "layers": [
+    {
+      "id": "1276a39a-f5b2-45a3-bba0-42f744308276",
+      "name": "ufg26.webp",
+      "asset": "af4e68aa-6550-4b2d-b26e-fdd612b5665d",
+      "x": -1,
+      "y": -4,
+      "width": 1706,
+      "height": 603,
+      "z": 0,
+      "parallax": 1,
+      "opacity": 1,
+      "frames": [],
+      "fps": 12
+    }
+  ]
+}

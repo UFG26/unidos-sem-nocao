@@ -1,0 +1,23 @@
+{
+  "id": "vitao",
+  "name": "Calçadão de Oz",
+  "width": 1700,
+  "floor": 470,
+  "music": "e89821d4-3a16-4370-b69b-c666cab19c17",
+  "layers": [
+    {
+      "id": "bg-vitao",
+      "name": "Cenário principal",
+      "asset": "roster_vitao_stage_vitao_webp",
+      "x": 0,
+      "y": 0,
+      "width": 1700,
+      "height": 540,
+      "parallax": 1,
+      "z": 0,
+      "opacity": 1,
+      "fps": 0,
+      "frames": []
+    }
+  ]
+}

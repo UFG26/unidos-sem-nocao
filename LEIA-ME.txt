@@ -1,0 +1,10 @@
+UNIDOS FIGHT STUDIO — JOGO EXPORTADO COMO PWA
+
+Para publicar em HTTPS (por exemplo, GitHub Pages ou Vercel), envie index.html, sw.js, manifest.webmanifest, app-icon-192.png, app-icon-512.png e a pasta assets/. Não publique apenas index.html: as spritesheets e demais recursos são carregados de assets/. O JSON editável é salvo separadamente pelo botão Salvar projeto.
+
+O index.html contém os dados do jogo e as coordenadas dos quadros. Imagens, áudio e vídeo são arquivos externos; a pasta assets/ guarda cada recurso uma única vez. Na exportação, o editor tenta reunir as animações de cada personagem em um atlas WebP; animações que não couberem nos limites seguros ficam em folhas separadas. O Service Worker guarda a interface principal e coloca mídia em cache conforme ela é utilizada. A primeira visita exige internet; os recursos já carregados podem funcionar offline. A instalação PWA exige HTTPS, exceto localhost.
+
+Para continuar editando, use Salvar projeto no editor e guarde o JSON separadamente. O pacote de jogo não inclui uma cópia editável com as mídias em Base64, evitando duplicar o peso dos arquivos.
+
+CONTROLES
+A/D ou setas: mover (recuar também defende). W ou seta para cima: pular. J: soco. K: chute. U: magia. I: super. Esc: pausar. Controles touch disponíveis.

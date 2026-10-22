@@ -1,0 +1,23 @@
+{
+  "id": "calvo",
+  "name": "Arena de Calvo",
+  "width": 1700,
+  "floor": 470,
+  "music": "8a071246-03f7-4366-916f-36662da10b4e",
+  "layers": [
+    {
+      "id": "fafc9036-d3fe-41fc-8232-4791b8a99ade",
+      "name": "48cf7de2-047e-4e9b-9497-3d50a95fa235.webp",
+      "asset": "c2498aae-1507-402c-b8c2-4b8a36bfeccb",
+      "x": -14,
+      "y": -37,
+      "width": 1724,
+      "height": 580,
+      "z": 0,
+      "parallax": 1,
+      "opacity": 1,
+      "frames": [],
+      "fps": 12
+    }
+  ]
+}

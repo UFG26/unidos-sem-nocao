@@ -1,0 +1,23 @@
+{
+  "id": "cunha",
+  "name": "Arena de Cunha",
+  "width": 1700,
+  "floor": 470,
+  "music": "12b03184-735f-4854-9204-72fefd6312be",
+  "layers": [
+    {
+      "id": "bg-cunha",
+      "name": "Cenário principal",
+      "asset": "roster_cunha_stage_cunha_webp",
+      "x": -4,
+      "y": -1,
+      "width": 1700,
+      "height": 540,
+      "parallax": 1,
+      "z": 0,
+      "opacity": 1,
+      "fps": 0,
+      "frames": []
+    }
+  ]
+}
