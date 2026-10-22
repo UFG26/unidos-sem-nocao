@@ -153,6 +153,16 @@ nav{position:sticky;top:0;align-self:start;max-height:calc(100vh - 36px);overflo
 .game-root .hud-clock{font-size:clamp(18px,6dvh,34px)!important}
 .game-root .training-bar{top:17%;bottom:auto;left:28%;right:28%;max-height:24%;overflow:auto}
 </style>
+<style id="ufg26-input-v2">
+html,body{touch-action:manipulation;overscroll-behavior:none}
+.game-root{touch-action:manipulation;-webkit-user-select:none;user-select:none;-webkit-touch-callout:none}
+.game-root canvas,.game-root .game-controls{touch-action:none}
+.game-root button,.game-root a,.game-root select{touch-action:manipulation}
+.game-root .game-controls button,.game-root .analog-stick{touch-action:none}
+.game-root input,.game-root select{font-size:max(16px,1em)}
+html:fullscreen,html:-webkit-full-screen{background:#000}
+html:fullscreen .game-root,html:-webkit-full-screen .game-root{width:min(100vw,177.7778dvh);max-width:none;max-height:100dvh}
+</style>
 </head><body><div id="game"></div>
 <div id="ufs-landscape-overlay" hidden role="dialog" aria-modal="true" aria-labelledby="ufs-landscape-title">
  <div class="ufs-landscape-card">
@@ -439,6 +449,19 @@ nav{position:sticky;top:0;align-self:start;max-height:calc(100vh - 36px);overflo
  const image=id=>{const a=p.assets[id];if(!a||a.type!=='image')return null;if(!images.has(id)){const i=new Image();i.src=a.src;images.set(id,i);}return images.get(id);};
  const animationReferenceHeight=anim=>{let h=animationHeights.get(anim);if(h===undefined){h=(anim.frames||[]).reduce((max,frame)=>Math.max(max,frame.h||0),1);h/=p.assets[anim.asset]?.spriteScaleY||1;animationHeights.set(anim,h);}return h;};
  const button=(label,fn,parent=overlay)=>{const b=el('button','',label);b.onclick=fn;parent.append(b);return b;};
+
+ // Request synchronously from the mode button's click/keyboard gesture.
+ let autoFullscreenAttempted=false;
+ function enterGameFullscreen(){
+  if(autoFullscreenAttempted)return;
+  const target=d.documentElement,request=target.requestFullscreen||target.webkitRequestFullscreen;
+  if(d.fullscreenElement||d.webkitFullscreenElement||!request)return;
+  if(navigator.userActivation&&!navigator.userActivation.isActive)return;
+  autoFullscreenAttempted=true;
+  try{Promise.resolve(request.call(target,{navigationUI:'hide'})).catch(()=>{});}catch{}
+ }
+ const preventGameDoubleClick=e=>{if(!e.target.closest('input,textarea,select'))e.preventDefault();};
+ host.addEventListener('dblclick',preventGameDoubleClick);
  let menuView=null;
  const clear=()=>{menuView?.dispose();menuView=null;overlay.replaceChildren();overlay.style.display='flex';};
  const releaseMedia=s=>{if(!s)return;s.onended=null;s.onerror=null;s.pause();s.removeAttribute('src');s.load();};
@@ -477,7 +500,7 @@ nav{position:sticky;top:0;align-self:start;max-height:calc(100vh - 36px);overflo
  function resumeFight(){clearInput();state='fight';overlay.style.display='none';if(trainingBar)trainingBar.style.display='';}
  function pauseGame(){if(state!=='fight')return;state='pause';clearInput();clear();if(trainingBar)trainingBar.style.display='none';overlay.append(el('h2','','PAUSA'));button('VOLTAR À LUTA',resumeFight);button('OPÇÕES',()=>showOptions('pause'));if(isTraining())button('AJUSTAR TREINO',trainingSettings);button('SAIR PARA O MENU',menu);}
  function menu(){clearTimeout(endingReturnTimer);endingReturnTimer=null;const endingVideo=overlay.querySelector('video.ending-video');if(endingVideo){endingVideo.pause();endingVideo.removeAttribute('src');endingVideo.load();}host.classList.remove('ending-fullscreen');pauseButton.style.display='';if(d.fullscreenElement===host&&d.exitFullscreen){try{const exit=d.exitFullscreen();exit?.catch(()=>{});}catch{}}clearInput();trainingBar?.remove();trainingBar=null;captureBinding=null;state='menu';hud.style.display='none';controls.style.display='none';clear();setMusic(p.ui.menuMusic);
-  menuView=K.paintMenu(overlay,p,{onAction:id=>{if(id==='options'){showOptions('menu');return;}gameMode=id;continuesLeft=3;bracket=null;chosenStageId=null;select();}});
+  menuView=K.paintMenu(overlay,p,{onAction:id=>{if(id==='options'){showOptions('menu');return;}enterGameFullscreen();gameMode=id;continuesLeft=3;bracket=null;chosenStageId=null;select();}});
  }
  function optionField(parent,label,key,type,values){const wrap=el('label','',label),input=el(type==='select'?'select':'input');input.setAttribute('aria-label',label);if(type==='select'){for(const [v,text]of values){const o=el('option','',text);o.value=v;input.append(o);}}else{input.type=type;if(type==='range'){input.min=0;input.max=1;input.step=.05;}if(type==='number'){input.min=0;input.max=15;input.step=1;}}
   if(type==='checkbox')input.checked=!!settings[key];else input.value=settings[key];input.onchange=()=>{settings[key]=type==='checkbox'?input.checked:type==='range'||type==='number'||key==='resolution'?Number(input.value):input.value;saveSettings();};wrap.append(input);parent.append(wrap);return input;}
@@ -486,7 +509,7 @@ nav{position:sticky;top:0;align-self:start;max-height:calc(100vh - 36px);overflo
   const tabs=el('div','option-tabs'),body=el('div','option-body');panel.append(tabs,body);let tab='play';
   function renderTab(){captureBinding=null;body.replaceChildren();padStatus=null;for(const b of tabs.children)b.classList.toggle('active',b.dataset.tab===tab);
    if(tab==='play'){button('Instalar UFG26 (opcional)',()=>window.ufgOfferInstall?.(),body);optionField(body,'Dificuldade','difficulty','select',Object.entries(K.difficultyLevels).map(([id,c])=>[id,c.label]));body.append(el('p','','Normal já é desafiador. A dificuldade vale para História, Torneio e Versus.'));}
-   if(tab==='graphics'){optionField(body,'Resolução de renderização','resolution','select',[[1,'Alta · 960 × 540'],[.75,'Média · 720 × 405'],[.5,'Baixa · 480 × 270']]);optionField(body,'Suavizar imagens','smoothing','checkbox');optionField(body,'Faíscas e brilho dos efeitos','effects','checkbox');button('Alternar tela cheia',()=>{if(d.fullscreenElement)d.exitFullscreen?.();else host.requestFullscreen?.()?.catch(()=>{});},body);}
+   if(tab==='graphics'){optionField(body,'Resolução de renderização','resolution','select',[[1,'Alta · 960 × 540'],[.75,'Média · 720 × 405'],[.5,'Baixa · 480 × 270']]);optionField(body,'Suavizar imagens','smoothing','checkbox');optionField(body,'Faíscas e brilho dos efeitos','effects','checkbox');button('Alternar tela cheia',()=>{if(d.fullscreenElement||d.webkitFullscreenElement){try{Promise.resolve((d.exitFullscreen||d.webkitExitFullscreen)?.call(d)).catch(()=>{});}catch{}}else{autoFullscreenAttempted=false;enterGameFullscreen();}},body);}
    if(tab==='sound'){for(const [key,label]of [['master','Volume geral'],['music','Músicas'],['sfx','Golpes e efeitos'],['voice','Vozes']])optionField(body,label,key,'range');button('Testar som de golpe',()=>sound('sfx-punch'),body);button('Testar voz',()=>sound('voice-male-normal','voice'),body);}
    if(tab==='buttons'){optionField(body,'Botões na tela','touch','select',[['auto','Automático (mobile)'],['on','Sempre mostrar'],['off','Ocultar']]);body.append(el('p','','Clique em uma ação e pressione a nova tecla. Esc cancela. Se a tecla já estiver em uso, as duas ações trocam de tecla.'));
     for(const [action,label]of Object.entries(actionLabels)){const b=button(label+' · '+settings.keyboard[action],()=>{captureBinding={type:'key',action,done:renderTab};b.textContent='Pressione uma tecla…';},body);}
@@ -659,7 +682,7 @@ await Promise.all(ready);if(!alive)return;last=performance.now();setMusic(stage.
  function onResize(){if(options.mode)return;const next=window.matchMedia?.('(pointer: coarse)').matches?(window.innerHeight>window.innerWidth?'portrait':'landscape'):'desktop';if(next===mobileMode)return;mobileMode=next;keys.clear();host.className='game-root'+(next==='desktop'?'':' game-mobile '+next);if(match){buildHUD();buildControls();}}
  window.addEventListener('resize',onResize);
  let lastRender=0,lastDrawState='';function frame(now){if(!alive)return;if(now-lastRender<1000/60-.5){raf=requestAnimationFrame(frame);return;}lastRender=now-((now-lastRender)%(1000/60));const dt=Math.min(.04,(now-last)/1000||0);last=now;pollPad(dt);if(state!=='pause'&&state!=='options')t+=dt;update(dt);if(!['menu','select','options','bracket'].includes(state)||state!==lastDrawState){draw();lastDrawState=state;}raf=requestAnimationFrame(frame);}saveSettings();if(options.training){selected=p.characters.find(c=>c.id===options.characterId)||p.characters[0];gameMode='training';tournament=[p.characters.find(c=>c.id!==selected.id)||selected];chosenStageId=selected.stage;beginMatch(0);}else menu();raf=requestAnimationFrame(frame);
- return ()=>{if(!alive)return;alive=false;d.removeEventListener('pointerdown',unlockAudio,true);d.removeEventListener('keydown',unlockAudio,true);for(const source of activeSources)source.stop();audioContext?.close();soundBuffers.clear();clearTimeout(endingReturnTimer);cancelAnimationFrame(raf);d.removeEventListener('keydown',kd);d.removeEventListener('keyup',ku);window.removeEventListener('blur',blur);window.removeEventListener('resize',onResize);window.removeEventListener('ufs:orientationblocked',onOrientationBlocked);menuView?.dispose();menuView=null;releaseMedia(music);music=null;audio.splice(0).forEach(releaseMedia);host.querySelectorAll('audio,video').forEach(releaseMedia);for(const im of images.values()){im.onload=null;im.onerror=null;im.removeAttribute('src');}images.clear();keys.clear();touchHeld.clear();projectiles=[];sparks=[];impacts=[];match=null;canvas.width=canvas.height=1;host.replaceChildren();};
+ return ()=>{if(!alive)return;alive=false;host.removeEventListener('dblclick',preventGameDoubleClick);d.removeEventListener('pointerdown',unlockAudio,true);d.removeEventListener('keydown',unlockAudio,true);for(const source of activeSources)source.stop();audioContext?.close();soundBuffers.clear();clearTimeout(endingReturnTimer);cancelAnimationFrame(raf);d.removeEventListener('keydown',kd);d.removeEventListener('keyup',ku);window.removeEventListener('blur',blur);window.removeEventListener('resize',onResize);window.removeEventListener('ufs:orientationblocked',onOrientationBlocked);menuView?.dispose();menuView=null;releaseMedia(music);music=null;audio.splice(0).forEach(releaseMedia);host.querySelectorAll('audio,video').forEach(releaseMedia);for(const im of images.values()){im.onload=null;im.onerror=null;im.removeAttribute('src');}images.clear();keys.clear();touchHeld.clear();projectiles=[];sparks=[];impacts=[];match=null;canvas.width=canvas.height=1;host.replaceChildren();};
 })(document.getElementById("game"),project);if("serviceWorker" in navigator&&location.protocol!=="file:"){const wasControlled=!!navigator.serviceWorker.controller;let refreshed=false;navigator.serviceWorker.addEventListener('controllerchange',()=>{if(wasControlled&&!refreshed){refreshed=true;location.reload();}});navigator.serviceWorker.register("./sw.js",{updateViaCache:'none'}).then(r=>r.update()).catch(()=>{});}</script><script>(function(){
   var banner=document.getElementById('ufs-install-banner');
   var installButton=document.getElementById('ufs-install-action');
