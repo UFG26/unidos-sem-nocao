@@ -1,5 +1,5 @@
 const CACHE_FAMILY='unidos-fight-game-';
-const CACHE_BUILD='mvixzpx6';
+const CACHE_BUILD='mvixzpx7';
 const SHELL_CACHE=CACHE_FAMILY+CACHE_BUILD+'-shell';
 const ASSET_CACHE=CACHE_FAMILY+CACHE_BUILD+'-assets';
 self.addEventListener('install',event=>event.waitUntil((async()=>{const cache=await caches.open(SHELL_CACHE);await cache.addAll(['./index.html','./manifest.webmanifest','./app-icon-192.png','./app-icon-512.png']);await self.skipWaiting();})()));
