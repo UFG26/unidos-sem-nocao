@@ -1,13 +1,28 @@
-UFG26 — versão 20261022-3
+UFG26 — versão 20261022-5
 
 PUBLICAÇÃO
 1. Extraia o ZIP.
 2. Copie o conteúdo completo para a pasta do repositório, substituindo os arquivos antigos. A pasta assets/recovered é necessária.
 3. Faça Commit e Push no GitHub Desktop.
 4. Aguarde o deploy da Vercel concluir e reabra a página.
-5. Confira OPÇÕES: versão 20261022-3.
+5. Confira OPÇÕES: versão 20261022-5.
 
-ALTERAÇÕES
+AJUSTE CHROME (v5)
+- Área do jogo calculada pela altura realmente visível, atualizada com barras do navegador, orientação e tela cheia.
+- Remove a centralização baseada em min-height:100vh, que deslocava os controles para baixo das barras do Chrome.
+- Botão TELA CHEIA em faixa própria de 34px, fora do menu, da dificuldade e dos controles.
+- Botão aciona fullscreen diretamente no touchend ou clique e permite sair. A disponibilidade depende do navegador/dispositivo.
+- Controles dimensionados pela altura do jogo, e não pela tela inteira.
+
+ALTERAÇÕES DE DEFESA (v4)
+- Reação de dano: 0,16s para soco, 0,20s para chute, 0,24s para magia e 0,30s para super, independente do número de quadros.
+- Proteção durante a reação e por 0,10s após ela para ambos os lutadores, evitando reinício contínuo do travamento.
+- Segurar para trás prepara a defesa, que fica disponível ao terminar a reação. Supers continuam não bloqueáveis.
+- Golpes defendidos afastam 32px; acertos afastam 26px. No canto, o atacante recebe o afastamento restante.
+- Comandos de ataque dados até 0,22s antes de ficar livre podem executar na recuperação. Segurar defesa tem prioridade e cancela esse comando pendente.
+- Comandos pendentes são limpos ao pausar ou iniciar novo round.
+
+ALTERAÇÕES ANTERIORES
 - 225 animações de 15 personagens recuperadas das folhas individuais do save, evitando os atlas sobrepostos da exportação.
 - Folhas dos efeitos recuperadas quando disponíveis, preservando os parâmetros dos golpes.
 - Bloqueio de zoom por pinça e toque duplo, mantendo os controles por Pointer Events.
