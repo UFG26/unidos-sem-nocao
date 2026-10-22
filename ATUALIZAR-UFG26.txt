@@ -1,16 +1,27 @@
-UFG26 — atualização 20261022-2
+UFG26 — versão 20261022-3
 
-Copie TODO o conteúdo deste pacote para a pasta do repositório, substituindo os arquivos anteriores. Faça Commit e Push no GitHub Desktop. Aguarde a publicação da Vercel concluir e reabra o jogo.
+PUBLICAÇÃO
+1. Extraia o ZIP.
+2. Copie o conteúdo completo para a pasta do repositório, substituindo os arquivos antigos. A pasta assets/recovered é necessária.
+3. Faça Commit e Push no GitHub Desktop.
+4. Aguarde o deploy da Vercel concluir e reabra a página.
+5. Confira OPÇÕES: versão 20261022-3.
 
-Novidades:
-- Impede zoom por toque duplo na área do jogo e mantém os controles multitouch.
-- Tenta tela cheia ao selecionar um modo de jogo pelo clique/toque/teclado.
-- Mantém a proporção 16:9 e permite sair normalmente da tela cheia.
-- OPÇÕES > GRÁFICOS > Alternar tela cheia permite tentar novamente.
-- Atualiza a versão do cache.
-- Mantém as correções anteriores de áudio, desempenho e controles.
+ALTERAÇÕES
+- 225 animações de 15 personagens recuperadas das folhas individuais do save, evitando os atlas sobrepostos da exportação.
+- Folhas dos efeitos recuperadas quando disponíveis, preservando os parâmetros dos golpes.
+- Bloqueio de zoom por pinça e toque duplo, mantendo os controles por Pointer Events.
+- Tela cheia solicitada diretamente no gesto, com botão TELA CHEIA no menu/pausa e opção manual em GRÁFICOS. A disponibilidade depende do navegador; instalação não é exigida.
+- Corrige erro de áudio que interrompia o retorno ao menu após o ending.
+- Limpa o vídeo e as classes do ending e volta ao menu após a mensagem final (5 segundos). Há opção de pular o vídeo.
+- ROUND 1, ROUND 2, FINAL ROUND, K.O. e GAME OVER menores (até 38% da largura e 22% da altura do jogo).
+- Mantém as correções anteriores de som, HUD e controles.
 
-Limitações:
-Tela cheia depende do suporte e da autorização do navegador. Não exige instalação. Não pode ser acionada automaticamente antes de uma interação.
-Os sprites de Samuka, Raphael e The Big M ainda precisam de reparo: o ZIP original contém folhas com quadros sobrepostos e partes encobertas. É necessário reenviar os vídeos originais de animação ou as folhas intactas para reconstruir esses movimentos. Não foram substituídos por movimentos inventados.
-O jogo exportado é independente do editor: uma nova exportação do editor pode sobrescrever estas correções.
+PENDÊNCIAS DO MATERIAL
+- The Big M: o save enviado ainda contém O Chefão com cinco animações antigas. As animações atuais não estão no save. O boss atual foi preservado; seus sprites ainda precisam do save mais recente ou das fontes intactas.
+- Salto de Samuka: alguns quadros já estão cortados na própria imagem do save (cabeça fora do quadro). Requer vídeo original ou folha completa. Os quadros disponíveis foram preservados.
+
+VALIDAÇÃO
+Sintaxe JavaScript, existência/decodificação das imagens e limites de todos os recortes verificados. Revisão visual do primeiro, intermediário e último quadro de cada animação recuperada. Testes simulados do ending em vídeo/imagem, falha de reprodução e gesto de pinça. Não foi possível executar teste em navegador real neste ambiente; validar no dispositivo.
+
+Este pacote é o jogo exportado, não uma atualização do editor. Nova exportação do editor pode sobrescrever os ajustes. Para corrigir também o empacotador de sprites do editor, é necessário seu código-fonte.

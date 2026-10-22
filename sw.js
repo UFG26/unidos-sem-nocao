@@ -1,5 +1,5 @@
 const CACHE_FAMILY='unidos-fight-game-';
-const CACHE_BUILD='ufg26-fix-20261022-2';
+const CACHE_BUILD='ufg26-fix-20261022-3';
 const SHELL_CACHE=CACHE_FAMILY+CACHE_BUILD+'-shell';
 const ASSET_CACHE=CACHE_FAMILY+CACHE_BUILD+'-assets';
 self.addEventListener('install',event=>event.waitUntil((async()=>{
